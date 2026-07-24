@@ -26,9 +26,17 @@ This project solves these challenges by leveraging **SQL Queries** to execute da
 ## Key Performance Indicators (KPIs) Analysis
 
 To measure business performance, core metrics were computed in **SQL Server** and cross-verified against **Microsoft Excel** pivot tables.
+| Metric | SQL Query | SSMS Output & Excel Validation |
+| :--- | :--- | :--- |
+| **Total Revenue** | `SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;` | **$817,860.05** |
+| **Avg Order Value** | `SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value FROM pizza_sales;` | **$38.31** |
+| **Total Pizzas Sold** | `SELECT SUM(quantity) AS Total_pizza_sold FROM pizza_sales;` | **49,574 units** |
+| **Total Orders** | `SELECT COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales;` | **21,350 orders** |
+| **Avg Pizzas / Order** | `SELECT CAST(CAST(SUM(quantity) AS DECIMAL(10,2)) / CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2)) AS Avg_Pizzas_per_order FROM pizza_sales;` | **2.32 units** |
+
+### Excel Baseline Verification
+To verify data integrity across platforms, database calculations were checked against the Excel Pivot aggregation summary:
+
+![KPI Summary Table](KPI.png)
 
 ---
-
-### 1. Total Revenue
-Calculates the total monetary value generated from all pizza sales.
-* **SQL Query**:
