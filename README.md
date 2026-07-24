@@ -49,4 +49,15 @@ To verify data integrity across platforms, database calculations were checked ag
  ## Phase 2: Daily & Hourly Order Trends Analysis
 
  Analyzes customer order density across days of the week and hours of the day to identify peak demand windows.
- 
+ #### SQL Execution & Query Outputs
+Below are the SSMS SQL queries alongside their live execution output results:
+
+![SQL Execution Output](SQL_TrendQueries.png)
+
+#### Excel Baseline Verification
+To verify trend accuracy, the query outputs were validated against the Excel Pivot Charts:
+
+![Excel Baseline Verification](Trends_for_TotalOrders.png)
+
+* **Daily Trend:** Peak order volume occurs on **Friday (3,538 orders)** and **Thursday (3,239 orders)**.
+* **Hourly Trend:** Order activity experiences two prominent surges during lunch (**12 PM – 1 PM**) and dinner (**5 PM – 7 PM**).
