@@ -98,3 +98,19 @@ To verify ranking accuracy, the query outputs were validated against the Excel P
 
 * **Top 5 Best Sellers:** **The Classic Deluxe Pizza** leads overall sales with **2,453 units sold**, followed closely by **The Barbecue Chicken Pizza** (**2,432**), **The Hawaiian Pizza** (**2,422**), **The Pepperoni Pizza** (**2,418**), and **The Thai Chicken Pizza** (**2,371**).
 * **Bottom 5 Worst Sellers:** **The Brie Carre Pizza** records the absolute lowest sales volume at only **490 units sold**, significantly underperforming compared to **The Mediterranean Pizza** (**934**), **The Calabrese Pizza** (**937**), **The Spinach Supreme Pizza** (**950**), and **The Soppressata Pizza** (**961**).
+
+## Strategic Recommendations & Action Plan
+
+Based on the combined SQL query analysis and Excel baseline visual evaluations, the following core business strategies are recommended:
+
+1. **Labor & Shift Optimization**:
+   * **Peak Rush Scheduling**: Kitchen prep and delivery capacity should be scaled up significantly during lunch hours (**12:00 PM – 1:00 PM**) and dinner hours (**5:00 PM – 7:00 PM**).
+   * **Weekly Staffing**: Concentrate maximum operational resources on **Fridays** (peak at 3,538 orders) and **Thursdays** (3,239 orders).
+
+2. **Menu Engineering & Product Strategy**:
+   * **Underperformer Interventions**: **The Brie Carre Pizza** records the absolute lowest volume across the entire menu (490 units). Consider launching bundled promotional deals, temporary menu discounts, or reformulating recipe ingredients to boost sales or reduce waste.
+   * **Anchor Products**: Focus marketing efforts around high-performing bestsellers like **The Classic Deluxe Pizza** (2,453 units) and **The Barbecue Chicken Pizza** (2,432 units).
+
+3. **Inventory & Base Material Allocation**:
+   * Prioritize stock procurement for **Large (L)** size bases, which generate **45.89%** ($375,318.70) of overall revenue.
+   * Maintain consistent inventory reserves for **Classic** and **Supreme** category ingredients, as they collectively account for over **52%** of total business revenue.
