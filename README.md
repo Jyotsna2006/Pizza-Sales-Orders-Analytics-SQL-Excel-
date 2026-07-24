@@ -16,3 +16,10 @@ An end-to-end data analysis project exploring pizza sales data to evaluate busin
 ![Pizza Sales Dashboard](Sales_Dashboard.png)
 
 ---
+## Problem Statement
+
+A high-volume pizzeria business requires clear insights into its operational efficiency, sales trends, and customer buying preferences. Key performance metrics were fragmented across raw transactional records containing over 49,000 individual pizza sales. 
+
+This project solves these challenges by leveraging **SQL Queries** to execute data extraction and aggregations, paired with an **Interactive Excel Dashboard** utilizing Pivot Tables, Slicers, and visual charts for executive decision-making.
+
+---
