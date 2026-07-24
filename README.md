@@ -61,3 +61,6 @@ To verify trend accuracy, the query outputs were validated against the Excel Piv
 
 * **Daily Trend:** Peak order volume occurs on **Friday (3,538 orders)** and **Thursday (3,239 orders)**.
 * **Hourly Trend:** Order activity experiences two prominent surges during lunch (**12 PM – 1 PM**) and dinner (**5 PM – 7 PM**).
+
+---
+### Phase 3: Sales Distribution by Category & Size
