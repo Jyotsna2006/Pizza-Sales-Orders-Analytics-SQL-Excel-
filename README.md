@@ -114,3 +114,26 @@ Based on the combined SQL query analysis and Excel baseline visual evaluations, 
 3. **Inventory & Base Material Allocation**:
    * Prioritize stock procurement for **Large (L)** size bases, which generate **45.89%** ($375,318.70) of overall revenue.
    * Maintain consistent inventory reserves for **Classic** and **Supreme** category ingredients, as they collectively account for over **52%** of total business revenue.
+
+---
+### Technical Tool Stack & Development Workflow
+
+* **SQL Server (T-SQL) & SSMS:** Applied for relational database querying, data aggregation, and analytical reporting—utilizing `CAST`, `DATEPART`, `GROUP BY`, conditional logic, and scalar aggregation functions to execute multi-layered query calculations.
+* **Microsoft Excel:** Leveraged for data validation, dynamic Pivot Table structures, and custom charts to analyze category share, operational trends, and product performance.
+* **Data Verification:** Cross-validated raw T-SQL query outputs against Excel Pivot summary totals to ensure data accuracy and consistency across both environments.
+
+---
+
+### Conclusion
+
+This project demonstrates an end-to-end data analytics workflow, turning raw sales and order records into clear, business-focused insights.
+
+By combining T-SQL (Transact-SQL) database querying with dynamic Excel visualization, the project provides a structured view of operational performance—highlighting key financial KPIs, peak ordering patterns, sales distributions, and product ranking trends. The findings offer a strong foundation for supporting data-driven decisions in store operations, scheduling, and product management.
+
+---
+
+### Future Work
+
+* **Interactive Dashboard Deployment:** Replicating the data model in **Power BI** or **Tableau** to enable interactive filtering, slicers, and automated visual updating.
+* **Expanded Trend Analysis:** Incorporating longer-term historical data to identify seasonal demand shifts and year-over-year growth patterns.
+* **Predictive Analytics:** Exploring forecasting models to estimate future ordering volumes and optimize inventory planning.
