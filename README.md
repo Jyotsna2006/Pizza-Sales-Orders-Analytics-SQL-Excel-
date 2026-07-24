@@ -23,3 +23,12 @@ A high-volume pizzeria business requires clear insights into its operational eff
 This project solves these challenges by leveraging **SQL Queries** to execute data extraction and aggregations, paired with an **Interactive Excel Dashboard** utilizing Pivot Tables, Slicers, and visual charts for executive decision-making.
 
 ---
+## Key Performance Indicators (KPIs) Analysis
+
+To measure business performance, core metrics were computed in **SQL Server** and cross-verified against **Microsoft Excel** pivot tables.
+
+---
+
+### 1. Total Revenue
+Calculates the total monetary value generated from all pizza sales.
+* **SQL Query**:
