@@ -1,1 +1,1 @@
-# Pizza-Sales-Orders-Analytics-SQL-Excel-
+# Pizza Sales & Orders Analytics (SQL & Excel)
