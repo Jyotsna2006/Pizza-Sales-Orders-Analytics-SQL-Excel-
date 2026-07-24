@@ -23,7 +23,7 @@ A high-volume pizzeria business requires clear insights into its operational eff
 This project solves these challenges by leveraging **SQL Queries** to execute data extraction and aggregations, paired with an **Interactive Excel Dashboard** utilizing Pivot Tables, Slicers, and visual charts for executive decision-making.
 
 ---
-## Key Performance Indicators (KPIs) Analysis
+## Phase 1: Key Performance Indicators (KPIs) Analysis
 
 To measure business performance, core metrics were computed in **SQL Server** and cross-verified against **Microsoft Excel** pivot tables.
 | Metric | SQL Query | SSMS Output & Excel Validation |
@@ -46,3 +46,7 @@ To verify data integrity across platforms, database calculations were checked ag
 ![KPI Summary Table](KPI.png)
 
 ---
+ ## Phase 2: Daily & Hourly Order Trends Analysis
+
+ Analyzes customer order density across days of the week and hours of the day to identify peak demand windows.
+ 
