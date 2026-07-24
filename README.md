@@ -80,3 +80,21 @@ To verify market share distributions and quantity totals, the query outputs were
 * **Category Revenue Share:** **Classic** generates the highest sales share at **26.91%** ($220,053.10), closely followed by **Supreme** at **25.46%** ($208,197.00).
 * **Size Revenue Share:** **Large (L)** size dominates revenue with **45.89%** ($375,318.70), while **Medium (M)** contributes **30.49%** ($249,382.25).
 * **Total Units Sold by Category:** **Classic** leads total volume with **14,888 pizzas sold**, followed by **Supreme** (**11,987**), **Veggie** (**11,649**), and **Chicken** (**11,050**).
+
+---
+### Phase 4: Product Performance Analysis (Best & Worst Sellers)
+
+This analysis evaluates top-performing and lowest-performing menu items based on total sales volume (quantity sold). It provides critical insights for menu engineering, stock control, and promotional strategies.
+
+#### SQL Execution & Query Outputs
+Below are the SSMS SQL queries alongside their live execution output results:
+
+![SQL Best and Worst Sellers Queries Output](SQL_Best_Worst.png)
+
+#### Excel Baseline Verification
+To verify ranking accuracy, the query outputs were validated against the Excel Pivot Charts:
+
+![Excel Best and Worst Sellers Verification](Best&Worst_Sellers.png)
+
+* **Top 5 Best Sellers:** **The Classic Deluxe Pizza** leads overall sales with **2,453 units sold**, followed closely by **The Barbecue Chicken Pizza** (**2,432**), **The Hawaiian Pizza** (**2,422**), **The Pepperoni Pizza** (**2,418**), and **The Thai Chicken Pizza** (**2,371**).
+* **Bottom 5 Worst Sellers:** **The Brie Carre Pizza** records the absolute lowest sales volume at only **490 units sold**, significantly underperforming compared to **The Mediterranean Pizza** (**934**), **The Calabrese Pizza** (**937**), **The Spinach Supreme Pizza** (**950**), and **The Soppressata Pizza** (**961**).
