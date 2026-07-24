@@ -34,6 +34,12 @@ To measure business performance, core metrics were computed in **SQL Server** an
 | **Total Orders** | `SELECT COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales;` | **21,350 orders** |
 | **Avg Pizzas / Order** | `SELECT CAST(CAST(SUM(quantity) AS DECIMAL(10,2)) / CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2)) AS Avg_Pizzas_per_order FROM pizza_sales;` | **2.32 units** |
 
+#### SQL Execution & Query Outputs
+
+Below are the SSMS SQL queries alongside their live execution output results:
+
+![SQL Server KPI Queries & Results](SQL_KPI_Queries.png)
+
 ### Excel Baseline Verification
 To verify data integrity across platforms, database calculations were checked against the Excel Pivot aggregation summary:
 
