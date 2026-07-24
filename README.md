@@ -64,3 +64,19 @@ To verify trend accuracy, the query outputs were validated against the Excel Piv
 
 ---
 ### Phase 3: Sales Distribution by Category & Size
+
+This analysis breaks down overall store revenue and unit sales volume across pizza categories and size specifications. It helps identify top revenue drivers, customer sizing preferences, and inventory priorities for ingredients and pizza bases.
+
+#### SQL Execution & Query Outputs
+Below are the SSMS SQL queries alongside their live execution output results:
+
+![SQL Category and Size Queries Output](SQL_Category_Size.png)
+
+#### Excel Baseline Verification
+To verify market share distributions and quantity totals, the query outputs were validated against the Excel Pivot Charts:
+
+![Excel Sales by Category and Size Verification](Sales_by_Category&Size.png)
+
+* **Category Revenue Share:** **Classic** generates the highest sales share at **26.91%** ($220,053.10), closely followed by **Supreme** at **25.46%** ($208,197.00).
+* **Size Revenue Share:** **Large (L)** size dominates revenue with **45.89%** ($375,318.70), while **Medium (M)** contributes **30.49%** ($249,382.25).
+* **Total Units Sold by Category:** **Classic** leads total volume with **14,888 pizzas sold**, followed by **Supreme** (**11,987**), **Veggie** (**11,649**), and **Chicken** (**11,050**).
